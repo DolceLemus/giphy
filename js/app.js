@@ -17,12 +17,12 @@ $(document).ready(function () {
 
   var ajaxGif = function (gif) {
     $.ajax({
-      'url': 'https://api.giphy.com/v1/gifs/search',
+      'url': 'http://api.giphy.com/v1/gifs/search',
       'type': 'GET',
       'datatype': 'json',
       'data': {
         'q': gif,
-        'api_key': 'dc6zaTOxFJmzC'
+        'api_key': '0iWF9dZHCzxVvOEbHG2FDzamyQdYfDfY'
       }
     })
       .done(function (response) {
