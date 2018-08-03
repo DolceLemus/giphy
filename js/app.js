@@ -17,7 +17,7 @@ $(document).ready(function () {
 
   var ajaxGif = function (gif) {
     $.ajax({
-      'url': 'http://api.giphy.com/v1/gifs/search',
+      'url': 'https://api.giphy.com/v1/gifs/search',
       'type': 'GET',
       'datatype': 'json',
       'data': {
